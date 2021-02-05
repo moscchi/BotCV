@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Moschini</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h4 id="bienvenida">Bienvenido al chat con Sebastián Moschini</h4>
+    </header>
+    <div class="container">
+        <div id="chat">
+            <div id="msj_user">Hola Sebastián!</div>
+            <div id="msj_bot">
+                Hola! Qué gusto verte acá. Mi nombre es Sebastián y te estoy hablando a través de mi amigo Botchini.
+                Valoro mucho tanto mi tiempo como el tuyo, por eso cree este bot para "armar" un primer filtro por si desde un principio no califico en sus pretenciones.
+                Preguntame lo que quieras!
+            </div>
+        </div>
+        <div class="ordenes">   
+            
+            <label id="orden">Qué quieres preguntarme?
+                </label>
+                <select id="preguntas">
+                    <option > Selecciona una pregunta</option>
+                    <option id="1">Contame un poco de vos.</option>
+                    <option id="2">Que lenguajes de programación sabes?</option>
+                    <option id="3">Qué esperás de tu primer trabajo IT?</option>
+                    <option id="4">En que instancia de carrera te encontrás?</option>
+                    <option id="5">Hablame de tus virtudes.</option>
+                    <option id="6">Cómo sería tu trabajo ideal?</option>
+                    <option id="7">Te cuesta relacionarte con la gente? Sos tímido?</option>
+                    <option id="8">Me gustaria ver tu CV y tu vídeo presentación.</option>
+                    <option id="9">He finalizado. Hasta la próxima!!</option>
+                </select>
+                <button id="but-send">Enviar</button>
+            
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
