@@ -1,6 +1,5 @@
 document.getElementById('but-send').addEventListener('click', sendQuestion, false);
-var stringIn = "";
-var stringOut = "";
+
 
 
 function sendQuestion() {
@@ -86,7 +85,7 @@ function sendQuestion() {
             </div>
             <div id="msj_bot">
                 Mi CV podes verlo en <a href="https://drive.google.com/file/d/1qHOLlpSIexR8IRMQVRAKRdVaMOln2ry-/view?usp=sharing"> Haciendo click aquí</a>
-                El vídeo presentación (próximamente)
+                El vídeo presentación <a href="https://www.youtube.com/watch?v=TvnDaYLbMK4">Vídeo Aquí</a>
             </div>`;
     }else if(question === 'He finalizado. Hasta la próxima!!'){
         document.getElementById('chat').innerHTML=`
