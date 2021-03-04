@@ -24,11 +24,12 @@ function sendQuestion() {
                 Que lenguajes de programación sabes?
             </div>
             <div id="msj_bot">
-                Mi formación académica fue con VisualFox y SQL. Pero también realizamos algunos proyectos con Java, mas que nada la parte de backend.
+                Mi formación académica fue con VisualFox y SQL. Pero también realizamos algunos proyectos con Java, mas que nada la parte de back-end.
+                Tengo conocimientos tanto de back-end y de front-end, estoy dispuesto a aprender más sobre ambos. 
                 Ahora estoy aprendiendo a full JavaScript. Estoy realizando un curso pago en Udemy de desarrollador JavaScript FullStack en este momento (4/2/2021). El mismo es <a href="https://www.udemy.com/course/universidad-javascript-angular-react-vue-typescript-html-css-bootstrap/">IR AL CURSO</a>. 
                 Ya terminé la parte de JavaScript del curso.
                  Ademas de los conocimientos que ya tengo en HTML y CSS y que sigo profundizando en este curso.
-                 En la facultad he cursado bases de datos (de manera teorica y practica), así tambien la programación estructurada y la POO.
+                 
             </div>`;
     }else if(question === 'Qué esperás de tu primer trabajo IT?'){
         document.getElementById('chat').innerHTML=`
@@ -37,7 +38,7 @@ function sendQuestion() {
                 Qué esperás de tu primer trabajo IT?
             </div>
             <div id="msj_bot">
-                Espero entrar en una empresa que me permita crecer en mi carrera como profesional IT, tanto en lo personal como dentro de la empresa. Quiero profundizar y aplicar todos mis conocimientos.
+                Espero integrarme a un equipo que me permita crecer en mi carrera como desarrollador de software, tanto en lo personal como dentro de la empresa. Quiero profundizar y aplicar todos mis conocimientos, me interesa tanto el back-end como el front-end.
                 Me gustaría crecer en el rubro y sé que tengo las condiciones para hacerlo.
 
             </div>`;
